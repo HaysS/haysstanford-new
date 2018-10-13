@@ -26,7 +26,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 const helmetTitle = "Hays Stanford"
 
 const title = 'Stop Being a Slave. Make Money Online.'
-const description = "Guide yourself to freedom with thousands of other members."
+const description = "Give yourself freedom with thousands of other members."
 
 //Image Urls
 const gifUrl = './images/sample-project-2.gif'
