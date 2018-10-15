@@ -44,16 +44,16 @@ class BlogPage extends Component {
         </div>
         <MainContent className="page-template">
         	<h1>Blog page</h1>
-        	{/* <PaginatedContent
+        	<PaginatedContent
             page={page}
             pages={pages}
             total={total}
             limit={limit}
             prev={prev}
-            next={next}>*/}
+            next={next}>
             {/* PostListing component renders all the posts */}
-           {/*  <PostListing postEdges={nodes} postAuthors={authorsEdges} />
-          </PaginatedContent>*/}
+            <PostListing postEdges={nodes} postAuthors={authorsEdges} />
+          </PaginatedContent>
         </MainContent>
       </div>
     );
