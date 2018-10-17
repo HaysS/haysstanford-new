@@ -25,8 +25,10 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 const helmetTitle = "Hays Stanford"
 
-const title = 'Stop Being a Slave. Make Money Online.'
-const description = "Give yourself freedom with thousands of other members."
+const title = 'Building Heaven Using Innovation'
+const description = "Read the articles here. You will find concepts that aren't shown anywhere else."
+
+const headerButtonText = "Click Here. Now."
 
 //Image Urls
 const backgroundUrl = './images/ocean-background-min.jpg'
