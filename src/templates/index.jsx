@@ -25,8 +25,8 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 
 const helmetTitle = "Hays Stanford"
 
-const title = 'Building Heaven Using Innovation'
-const description = "Read the articles here. You will find concepts that aren't shown anywhere else."
+const title = 'Build Heaven Using Innovation'
+const description = "You will find concepts that aren't shown anywhere. Become a part of something great. "
 
 const headerButtonText = "Click Here. Now."
 
