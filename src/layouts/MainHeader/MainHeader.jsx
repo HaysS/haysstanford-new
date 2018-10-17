@@ -18,7 +18,7 @@ class MainHeader extends React.Component {
     };
 
     return (
-      <header className={classes} style={{background: 'transparent'}}>
+      <header className={classes} style={{background: 'transparent', backgroundImage: 'url("./images/ocean-background-min.jpg")', backgroundSize: '100%'}}>
         {children}
       </header>
     );

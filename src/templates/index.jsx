@@ -29,7 +29,8 @@ const title = 'Stop Being a Slave. Make Money Online.'
 const description = "Give yourself freedom with thousands of other members."
 
 //Image Urls
-const gifUrl = './images/sample-project-2.gif'
+const backgroundUrl = './images/ocean-background-min.jpg'
+// const gifUrl = './images/sample-project-2.gif'
 
 class IndexTemplate extends React.Component {
   constructor(props) {
@@ -130,7 +131,7 @@ class IndexTemplate extends React.Component {
           {/* All the main content gets inserted here */}
           <div className="home-template">
             {/* The big featured header 'linear-gradient(#b7b7b7, #fff)'*/}
-            <div style={{background: '#fff'}}>
+            <div>
               <MainHeader cover={config.siteCover} >
                 <MainNavBar overlay={config.siteCover}/>
                 <div className="vertical">

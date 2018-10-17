@@ -1,5 +1,9 @@
 /* Big cover image on the home page */
 .main-header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
     display: table;
     width: 100%;
