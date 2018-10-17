@@ -7,11 +7,10 @@
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     /*color: rgba(12, 36, 158, 1);*/
-    color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .no-cover .page-title {
-    color: rgba(0, 0, 0, 0.8);
 }
 
 /* Add subtle load-in animation for content on the home page */
