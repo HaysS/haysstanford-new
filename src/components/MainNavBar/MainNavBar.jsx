@@ -16,7 +16,7 @@ class MainNavBar extends Component {
           <div style={{flex: '2', color: '#f7f7f7'}}></div>
           <div style={{flex: '1', display: 'flex', margin: 'auto'}}>
             <Link to='/blog/' style={{flex: '1'}}>
-              <h5 style={{color: '#f7f7f7'}}>Blog</h5>
+              <h5 style={{color: '#f7f7f7'}}>Read</h5>
             </Link>
           </div>
         </div>
