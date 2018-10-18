@@ -96,7 +96,7 @@ class PostTemplate extends React.Component {
         <Navigation config={config} onClose={this.handleOnClose} />
 
         <SiteWrapper>
-          <MainHeader className="post-head" cover={cover}>
+          <MainHeader style={{maxHeight: '2em'}}>
               <MainNavBar overlay={config.siteCover}/>
           </MainHeader>
           <MainContent>
