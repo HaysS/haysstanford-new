@@ -137,8 +137,8 @@ class IndexTemplate extends React.Component {
               <MainHeader cover={config.siteCover} >
                 <MainNavBar overlay={config.siteCover}/>
                 <div className="vertical">
-                  <div style={{background: 'rgba(0, 0, 0, 0.8)'}}>
-                    <div style={{background: 'rgba(0, 0, 0, 1)', width: '65%', margin: 'auto auto', height: '100%', padding: '5em 0'}}>
+                  <div style={{}}>
+                    <div style={{width: '65%', margin: 'auto auto', height: '100%', padding: '5em 0'}}>
                       <PageTitle text={title} />
                       <div className="main-header-content inner">
                         <div className="row">

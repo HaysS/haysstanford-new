@@ -17,12 +17,20 @@ class MainHeader extends React.Component {
       return null;
     };
 
+    const layerBackground = {
+      backgroundColor: 'rgba(0, 0, 0, 0.0)'
+    }
+
     return (
-      <header className={classes} style={{background: 'transparent', backgroundImage: 'url("./images/ocean-compressed.gif")', backgroundSize: '100%'}}>
-        {children}
+      <header className={classes} style={{backgroundImage: 'url("./images/ocean-compressed.gif")', backgroundSize: '100%'}}>
+        <div className="layer main-header" style={layerBackground}>
+          {children}
+        </div>
       </header>
     );
   }
 }
+
+
 
 export default MainHeader;

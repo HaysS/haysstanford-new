@@ -8,6 +8,11 @@
     font-family: "Open Sans", sans-serif;
     /*color: rgba(12, 36, 158, 1);*/
     color: rgba(255, 255, 255, 1);
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 .no-cover .page-title {
