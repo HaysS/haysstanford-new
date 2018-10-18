@@ -27,7 +27,7 @@ class AuthorInfo extends React.Component {
       return (
         <section className="author">
           <h4>
-            <AuthorLink url={authorInfoUrl} name={name} />
+            <AuthorLink name={name} />
           </h4>
           <Bio bio={bio} morePostsUrl={authorInfoUrl} />
           <AuthorMeta>

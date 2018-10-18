@@ -6,9 +6,10 @@ class AuthorLink extends React.Component {
   render() {
     const { name, url } = this.props;
     if (name && url) {
-      return <Link to={url}>{name}</Link>;
-    }
-    return null;
+     	return <Link to={url}>{name}</Link>;
+    } else if (name) {
+    	return <a style={{textDecoration: 'none'}}>{name}</a>
+    } return null;
   }
 }
 
