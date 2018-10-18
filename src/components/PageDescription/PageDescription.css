@@ -8,11 +8,11 @@
     letter-spacing: 0rem;
     /*color: rgba(22, 49, 189, 0.95);*/
     color: rgba(255, 255, 255, 1);
-    text-shadow:
+    /*text-shadow:
     -2px -2px 0 #000,
     2px -2px 0 #000,
     -2px 2px 0 #000,
-    2px 2px 0 #000;
+    2px 2px 0 #000;*/
 }
 
 .no-cover .page-description {
