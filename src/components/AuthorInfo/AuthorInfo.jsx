@@ -32,7 +32,7 @@ class AuthorInfo extends React.Component {
           <Bio bio={bio} morePostsUrl={authorInfoUrl} />
           <AuthorMeta>
             <AuthorLocation location={location} />
-            <AuthorWebsite url={url} />
+            {/* <AuthorWebsite url={url} /> */}
           </AuthorMeta>
         </section>
       );
