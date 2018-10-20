@@ -67,6 +67,23 @@
     .col {
         padding-bottom: 10%;
     }
+
+    .outer-layer {
+        background-color: transparent;
+        width: 100%;
+        padding: 0 0;
+        padding-bottom: 1em;
+    }
+
+    .inner-layer {
+        background-color: transparent;
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .page-title {
+        font-size: 10px;
+    }
 }
     
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
