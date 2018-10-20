@@ -15,6 +15,21 @@
     overflow: hidden;
 }
 
+.outer-layer {
+    background: rgba(0, 0, 0, 0.7); 
+    width: 75%;
+    margin: auto auto;
+    padding: 4em 0;
+}
+
+.inner-layer {
+    background: rgba(0, 0, 0, 0.9); 
+    width: 90%;
+    margin: auto auto; 
+    height: 80%;
+    padding: 4em 0;
+}
+
 .layer {
     position: absolute;
     top: 0;
