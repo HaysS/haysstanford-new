@@ -163,8 +163,6 @@
         box-sizing: border-box;
 
         /* height: auto; Node: duplicate height values included in original Casper css */
-        min-height: 240px;
-        height: 60vh;
         padding: 15% 0;
     }
 
