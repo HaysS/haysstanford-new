@@ -18,7 +18,7 @@
     left: 0;
     right: 0;
     border: none;
-    background: rgba(0, 0, 0, .97);
+    background: rgba(0, 0, 0, 1);
 }
 
 .no-cover .main-nav.overlay {
@@ -36,10 +36,10 @@
     .main-nav.overlay a:hover {
         color: #fff;
         border-color: transparent;
-        background: transparent;
+        background: rgba(0, 0, 0, 1);
     }
 
     .no-cover .main-nav.overlay {
-        background: none;
+        background: rgba(0, 0, 0, 1);
     }
 }
