@@ -22,11 +22,11 @@ class MainHeader extends React.Component {
     }
 
     return (
-      <header className={classes} style={{backgroundImage: 'url("./images/ocean-compressed.gif")', backgroundSize: '100%'}}>
-        <div className="layer main-header" style={layerBackground}>
-          {children}
-        </div>
-      </header>
+        <header className={classes}style={{backgroundImage: 'url("./images/ocean-compressed.gif")', backgroundSize: '100%'}}>
+          <div className="layer main-header" style={layerBackground}>
+            {children}
+          </div>
+        </header>
     );
   }
 }
