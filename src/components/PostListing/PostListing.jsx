@@ -29,6 +29,7 @@ const getPostList = (postEdges, authorEdges) =>
 class PostListing extends React.Component {
   render() {
     const postList = getPostList(this.props.postEdges, this.props.postAuthors);
+    const onBlog = (this.props.onBlog != undefined) ? this.props.onBlog : false
 
     return (
       <div>
@@ -56,6 +57,10 @@ class PostListing extends React.Component {
               <footer className="post-meta">
                 <AuthorThumbnail avatar={author.image} name={author.name} />
                 <AuthorLink name={author.name} />
+                {(() => {
+                  if(onBlog)
+                    return (" | ")
+                })()}
                 {/*<PostTags prefix=" on " tags={tags} />*/}
                 <PostDate date={date} />
               </footer>

@@ -52,7 +52,7 @@ class BlogPage extends Component {
             prev={prev}
             next={next}>
             {/* PostListing component renders all the posts */}
-            <PostListing postEdges={nodes} postAuthors={authorsEdges} />
+            <PostListing postEdges={nodes} postAuthors={authorsEdges} onBlog={true} />
           </PaginatedContent>
         </MainContent>
       </div>
