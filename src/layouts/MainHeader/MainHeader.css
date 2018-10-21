@@ -26,7 +26,7 @@
     2px 2px 0 #000;  
     -webkit-font-smoothing: antialiased; /*Smooths outline of text to look better*/
     margin: auto auto;
-    padding: 4em 0;
+    padding-top: 4em 0;
 }
 
 .inner-layer {
@@ -81,10 +81,8 @@
 
     .outer-layer {
         background-color: transparent;
-
         width: 100%;
         padding: 0 0;
-        padding-bottom: 1em;
     }
 
     .inner-layer {
@@ -206,7 +204,6 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-
         /* height: auto; Node: duplicate height values included in original Casper css */
         padding: 15% 0;
     }
@@ -246,11 +243,15 @@
 @media only screen and (max-width: 500px) {
     .main-header {
         margin-bottom: 15px;
-        height: 40vh;
+        max-height: 180px;
     }
 
     .row {
-        padding-bottom: 25px;
+        padding-bottom: 0px;
+    }
+
+    .inner-layer {
+        padding-top: 18px;
     }
 
     .layer {
