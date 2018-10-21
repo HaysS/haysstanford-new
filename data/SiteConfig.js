@@ -3,10 +3,10 @@ module.exports = {
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Hays Stanford", // Site title.
-  siteTitleAlt: "Hays Stanford | Online Enthusiast", // Alternative site title for SEO.
+  siteTitleAlt: "Hays Stanford | Startup Programmer", // Alternative site title for SEO.
   siteLogo:
     "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
-  siteUrl: "https://productlife.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://blog.haysstanford.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "Learn JavaScript by Building What You Want.", // Website description used for RSS feeds/meta description tag.
@@ -47,7 +47,7 @@ module.exports = {
   copyright: {
     label: "Hays Stanford", // Label used before the year
     year: "2018", // optional, set specific copyright year or range of years, defaults to current year
-    url: "http://www.haysstanford.com/" // optional, set link address of copyright, defaults to site root
+    url: "http://www.blog.haysstanford.com/" // optional, set link address of copyright, defaults to site root
   },
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
