@@ -45,6 +45,8 @@
 @media only screen and (max-width: 500px) {
     .page-description {
         font-size: 1.6rem;
+        margin: auto auto;
+        max-width: 80%;
     }
 
     .paged .main-header .page-description {
