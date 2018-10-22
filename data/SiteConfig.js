@@ -3,7 +3,7 @@ module.exports = {
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Hays Stanford", // Site title.
-  siteTitleAlt: "Hays Stanford | Startup Programmer", // Alternative site title for SEO.
+  siteTitleAlt: "Hays Stanford", // Alternative site title for SEO.
   siteLogo:
     "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://blog.haysstanford.com", // Domain of your website without pathPrefix.
