@@ -43,7 +43,6 @@ class BlogPage extends Component {
       		<MainNavBar overlay={config.siteCover} />
         </div>
         <MainContent className="page-template">
-        	<h1>Blog page</h1>
         	<PaginatedContent
             page={page}
             pages={pages}

@@ -1,0 +1,13 @@
+{
+  "id": "hays",
+  "name": "Hays Stanford",
+  "image": "https://api.adorable.io/avatars/150/test.png",
+  "url": "http://haysstanford.com/",
+  "location": "Austin, TX",
+  "bio": "Just a cool guy, doing cool things.",
+  "socialUrls": [
+    "https://github.com/HaysS",
+    "https://twitter.com/thehaysstanford",
+    "mailto:example@example.com"
+  ]
+}
