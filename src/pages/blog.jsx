@@ -26,6 +26,8 @@ class BlogPage extends Component {
     const limit = config.sitePaginationLimit //Max number of posts per page
     const authorsEdges = this.props.data.authors.edges;
 
+    console.log('AUTHORS DATA: ', this.props.data.authors)
+
     console.log("passedConsts: ",
       nodes,
       page,

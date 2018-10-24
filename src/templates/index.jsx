@@ -109,6 +109,7 @@ class IndexTemplate extends React.Component {
     } = this.props.pathContext;
     const authorsEdges = this.props.data.authors.edges;
 
+
     console.log('pathContext: ', this.props.pathContext)
 
     console.log(nodes,
